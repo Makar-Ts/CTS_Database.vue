@@ -3,6 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "type": "module",
+  "vue": {
+    "publicPath": "/CTS_Database.vue/"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",

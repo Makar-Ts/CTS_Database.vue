@@ -1,3 +1,5 @@
 module.exports = {
-    publicPath: '/CTS_Database.vue/'
+    publicPath: process.env.NODE_ENV === 'production'
+        ? '/CTS_Database.vue/'
+        : '/'
 }
